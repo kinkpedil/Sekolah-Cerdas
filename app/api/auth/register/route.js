@@ -1,5 +1,5 @@
-import { getSupabaseServer } from "../../../../../lib/supabase-server";
-import { jsonError, requiredString } from "../../../../../lib/validation";
+import { getSupabaseServer } from "../../../../lib/supabase-server";
+import { jsonError, requiredString } from "../../../../lib/validation";
 
 export async function POST(request) {
   try {
